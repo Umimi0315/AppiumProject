@@ -64,8 +64,10 @@ public class Umetrip {
 
             Umetrip_function uf = new Umetrip_function(dir, x, y, writeProgress);
 
+
+
             if (uf.isElementExits("id", "com.umetrip.android.msky.app:id/btn_upgrade", driver)) {
-                driver.tap(1, x*540/1080, y*1523/1920, 1000);
+                driver.tap(1, x*540/1080, y*1754/2340, 1000);
                 Thread.sleep(2000);
             }
 

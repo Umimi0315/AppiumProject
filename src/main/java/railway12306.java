@@ -67,6 +67,18 @@ public class railway12306 {
 
             railway12306_function rf = new railway12306_function(dir, x, y, writeProgress);
 
+            if (rf.isElementExits("xpath", "//*[@resource-id='com.MobileTicket.launcher:id/permission_msg_button' and @text='继续使用']", driver))
+            {
+                driver.findElementByXPath("//*[@resource-id='com.MobileTicket.launcher:id/permission_msg_button' and @text='继续使用']").click();
+                Thread.sleep(5000);
+            }
+
+
+            if (rf.isElementExits("xpath", "//*[@resource-id='com.MobileTicket.common:id/cancel_btn' and @text='稍后再说']", driver)){
+                driver.findElementByXPath("//*[@resource-id='com.MobileTicket.common:id/cancel_btn' and @text='稍后再说']").click();
+                Thread.sleep(5000);
+            }
+
             rf.saveAlternateOrderData(driver, "铁路12306-候补车票");
             rf.saveRiderData(driver, "铁路12306-乘车人");
             rf.savePersonalData(driver, "铁路12306-个人信息");

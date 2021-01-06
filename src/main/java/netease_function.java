@@ -204,6 +204,13 @@ public class netease_function extends Function{
 												}*/
 												mobileElement2.click();
 												Thread.sleep(5000);
+
+												if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+												{
+													driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+													Thread.sleep(5000);
+												}
+
 												String content="";
 												String contentLastPageSource=null;
 												String contentNowPageSource=driver.getPageSource();
@@ -249,6 +256,13 @@ public class netease_function extends Function{
 								Thread.sleep(5000);
 
 							}else {
+
+								if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+								{
+									driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+									Thread.sleep(5000);
+								}
+
 								String content="";
 								String contentLastPageSource=null;
 								String contentNowPageSource=driver.getPageSource();
@@ -406,6 +420,13 @@ public class netease_function extends Function{
 //										}
 										mobileElement2.click();
 										Thread.sleep(5000);
+
+										if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+										{
+											driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+											Thread.sleep(5000);
+										}
+
 										String content="";
 										String contentLastPageSource=null;
 										String contentNowPageSource=driver.getPageSource();
@@ -449,6 +470,13 @@ public class netease_function extends Function{
 						Thread.sleep(5000);
 
 					}else {
+
+						if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+						{
+							driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+							Thread.sleep(5000);
+						}
+
 						String content="";
 						String contentLastPageSource=null;
 						String contentNowPageSource=driver.getPageSource();
@@ -679,6 +707,13 @@ public class netease_function extends Function{
 //												}
 												mobileElement2.click();
 												Thread.sleep(5000);
+
+												if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+												{
+													driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+													Thread.sleep(5000);
+												}
+
 												String content="";
 												String contentLastPageSource=null;
 												String contentNowPageSource=driver.getPageSource();
@@ -719,6 +754,13 @@ public class netease_function extends Function{
 								driver.navigate().back();
 								Thread.sleep(5000);
 							}else {
+
+								if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+								{
+									driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+									Thread.sleep(5000);
+								}
+
 								String content="";
 								String contentLastPageSource=null;
 								String contentNowPageSource=driver.getPageSource();
@@ -868,6 +910,13 @@ public class netease_function extends Function{
 //										}
 										mobileElement2.click();
 										Thread.sleep(5000);
+
+										if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+										{
+											driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+											Thread.sleep(5000);
+										}
+
 										String content="";
 										String contentLastPageSource=null;
 										String contentNowPageSource=driver.getPageSource();
@@ -910,6 +959,13 @@ public class netease_function extends Function{
 						driver.navigate().back();
 						Thread.sleep(5000);
 					}else {
+
+						if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+						{
+							driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+							Thread.sleep(5000);
+						}
+
 						String content="";
 						String contentLastPageSource=null;
 						String contentNowPageSource=driver.getPageSource();
@@ -1138,6 +1194,13 @@ public class netease_function extends Function{
 //												}
 												mobileElement2.click();
 												Thread.sleep(5000);
+
+												if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+												{
+													driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+													Thread.sleep(5000);
+												}
+
 												String content="";
 												String contentLastPageSource=null;
 												String contentNowPageSource=driver.getPageSource();
@@ -1182,6 +1245,13 @@ public class netease_function extends Function{
 								Thread.sleep(5000);
 
 							}else {
+
+								if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+								{
+									driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+									Thread.sleep(5000);
+								}
+
 								String content="";
 								String contentLastPageSource=null;
 								String contentNowPageSource=driver.getPageSource();
@@ -1334,6 +1404,13 @@ public class netease_function extends Function{
 //										}
 										mobileElement2.click();
 										Thread.sleep(5000);
+
+										if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+										{
+											driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+											Thread.sleep(5000);
+										}
+
 										String content="";
 										String contentLastPageSource=null;
 										String contentNowPageSource=driver.getPageSource();
@@ -1376,6 +1453,13 @@ public class netease_function extends Function{
 						driver.navigate().back();
 						Thread.sleep(5000);
 					}else {
+
+						if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+						{
+							driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+							Thread.sleep(5000);
+						}
+
 						String content="";
 						String contentLastPageSource=null;
 						String contentNowPageSource=driver.getPageSource();
@@ -1606,6 +1690,13 @@ public class netease_function extends Function{
 //												}
 												mobileElement2.click();
 												Thread.sleep(5000);
+
+												if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+												{
+													driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+													Thread.sleep(5000);
+												}
+
 												String content="";
 												String contentLastPageSource=null;
 												String contentNowPageSource=driver.getPageSource();
@@ -1650,6 +1741,13 @@ public class netease_function extends Function{
 								Thread.sleep(5000);
 
 							}else {
+
+								if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+								{
+									driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+									Thread.sleep(5000);
+								}
+
 								String content="";
 								String contentLastPageSource=null;
 								String contentNowPageSource=driver.getPageSource();
@@ -1800,6 +1898,13 @@ public class netease_function extends Function{
 //										}
 										mobileElement2.click();
 										Thread.sleep(5000);
+
+										if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+										{
+											driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+											Thread.sleep(5000);
+										}
+
 										String content="";
 										String contentLastPageSource=null;
 										String contentNowPageSource=driver.getPageSource();
@@ -1843,6 +1948,13 @@ public class netease_function extends Function{
 						driver.navigate().back();
 						Thread.sleep(5000);
 					}else {
+
+						if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+						{
+							driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+							Thread.sleep(5000);
+						}
+
 						String content="";
 						String contentLastPageSource=null;
 						String contentNowPageSource=driver.getPageSource();
@@ -2073,6 +2185,13 @@ public class netease_function extends Function{
 //												}
 												mobileElement2.click();
 												Thread.sleep(5000);
+
+												if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+												{
+													driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+													Thread.sleep(5000);
+												}
+
 												String content="";
 												String contentLastPageSource=null;
 												String contentNowPageSource=driver.getPageSource();
@@ -2113,6 +2232,13 @@ public class netease_function extends Function{
 								driver.navigate().back();
 								Thread.sleep(5000);
 							}else {
+
+								if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+								{
+									driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+									Thread.sleep(5000);
+								}
+
 								String content="";
 								String contentLastPageSource=null;
 								String contentNowPageSource=driver.getPageSource();
@@ -2263,6 +2389,13 @@ public class netease_function extends Function{
 //										}
 										mobileElement2.click();
 										Thread.sleep(5000);
+
+										if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+										{
+											driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+											Thread.sleep(5000);
+										}
+
 										String content="";
 										String contentLastPageSource=null;
 										String contentNowPageSource=driver.getPageSource();
@@ -2303,6 +2436,13 @@ public class netease_function extends Function{
 						driver.navigate().back();
 						Thread.sleep(5000);
 					}else {
+
+						if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+						{
+							driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+							Thread.sleep(5000);
+						}
+
 						String content="";
 						String contentLastPageSource=null;
 						String contentNowPageSource=driver.getPageSource();
@@ -2531,6 +2671,13 @@ public class netease_function extends Function{
 //												}
 												mobileElement2.click();
 												Thread.sleep(5000);
+
+												if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+												{
+													driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+													Thread.sleep(5000);
+												}
+
 												String content="";
 												String contentLastPageSource=null;
 												String contentNowPageSource=driver.getPageSource();
@@ -2571,6 +2718,13 @@ public class netease_function extends Function{
 								driver.navigate().back();
 								Thread.sleep(5000);
 							}else {
+
+								if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+								{
+									driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+									Thread.sleep(5000);
+								}
+
 								String content="";
 								String contentLastPageSource=null;
 								String contentNowPageSource=driver.getPageSource();
@@ -2720,6 +2874,13 @@ public class netease_function extends Function{
 //										}
 										mobileElement2.click();
 										Thread.sleep(5000);
+
+										if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+										{
+											driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+											Thread.sleep(5000);
+										}
+
 										String content="";
 										String contentLastPageSource=null;
 										String contentNowPageSource=driver.getPageSource();
@@ -2760,6 +2921,13 @@ public class netease_function extends Function{
 						driver.navigate().back();
 						Thread.sleep(5000);
 					}else {
+
+						if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+						{
+							driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+							Thread.sleep(5000);
+						}
+
 						String content="";
 						String contentLastPageSource=null;
 						String contentNowPageSource=driver.getPageSource();
@@ -2985,6 +3153,13 @@ public class netease_function extends Function{
 //												}
 												mobileElement2.click();
 												Thread.sleep(5000);
+
+												if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+												{
+													driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+													Thread.sleep(5000);
+												}
+
 												String content="";
 												String contentLastPageSource=null;
 												String contentNowPageSource=driver.getPageSource();
@@ -3025,6 +3200,13 @@ public class netease_function extends Function{
 								driver.navigate().back();
 								Thread.sleep(5000);
 							}else {
+
+								if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+								{
+									driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+									Thread.sleep(5000);
+								}
+
 								String content="";
 								String contentLastPageSource=null;
 								String contentNowPageSource=driver.getPageSource();
@@ -3174,6 +3356,13 @@ public class netease_function extends Function{
 //										}
 										mobileElement2.click();
 										Thread.sleep(5000);
+
+										if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+										{
+											driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+											Thread.sleep(5000);
+										}
+
 										String content="";
 										String contentLastPageSource=null;
 										String contentNowPageSource=driver.getPageSource();
@@ -3214,6 +3403,13 @@ public class netease_function extends Function{
 						driver.navigate().back();
 						Thread.sleep(5000);
 					}else {
+
+						if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+						{
+							driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+							Thread.sleep(5000);
+						}
+
 						String content="";
 						String contentLastPageSource=null;
 						String contentNowPageSource=driver.getPageSource();
@@ -3440,6 +3636,13 @@ public class netease_function extends Function{
 //												}
 												mobileElement2.click();
 												Thread.sleep(5000);
+
+												if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+												{
+													driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+													Thread.sleep(5000);
+												}
+
 												String content="";
 												String contentLastPageSource=null;
 												String contentNowPageSource=driver.getPageSource();
@@ -3480,6 +3683,13 @@ public class netease_function extends Function{
 								driver.navigate().back();
 								Thread.sleep(5000);
 							}else {
+
+								if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+								{
+									driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+									Thread.sleep(5000);
+								}
+
 								String content="";
 								String contentLastPageSource=null;
 								String contentNowPageSource=driver.getPageSource();
@@ -3630,6 +3840,13 @@ public class netease_function extends Function{
 //										}
 										mobileElement2.click();
 										Thread.sleep(5000);
+
+										if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+										{
+											driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+											Thread.sleep(5000);
+										}
+
 										String content="";
 										String contentLastPageSource=null;
 										String contentNowPageSource=driver.getPageSource();
@@ -3670,6 +3887,13 @@ public class netease_function extends Function{
 						driver.navigate().back();
 						Thread.sleep(5000);
 					}else {
+
+						if (isElementExits("xpath", "//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']",driver))
+						{
+							driver.findElementByXPath("//*[@resource-id='com.netease.mobimail:id/alert_dialog_btnCancel' and @text='继续加载']").click();
+							Thread.sleep(5000);
+						}
+
 						String content="";
 						String contentLastPageSource=null;
 						String contentNowPageSource=driver.getPageSource();

@@ -88,6 +88,12 @@ public class QQmail_function extends Function{
 							ps.append("<lv>"+replace(mobileElement.findElementByXPath("//*[@class= 'android.view.View' and @index= '0']").getAttribute("content-desc"))+"</lv>"+"\n");
 							mobileElement.click();
 							Thread.sleep(5000);
+
+							if(isElementExits("xpath", "//*[@class='android.widget.Button' and @text='继续访问']",driver)){
+							    driver.findElementByXPath("//*[@class='android.widget.Button' and @text='继续访问']").click();
+							    Thread.sleep(5000);
+                            }
+
 							String content="";
 							String contentLastPageSource=null;
 							String contentNowPageSource=driver.getPageSource();
@@ -231,6 +237,12 @@ public class QQmail_function extends Function{
 	//						ps.append("</Tln>"+"\n");
 							mobileElement.click();
 							Thread.sleep(5000);
+
+                            if(isElementExits("xpath", "//*[@class='android.widget.Button' and @text='继续访问']",driver)){
+                                driver.findElementByXPath("//*[@class='android.widget.Button' and @text='继续访问']").click();
+                                Thread.sleep(5000);
+                            }
+
 							String content="";
 							String contentLastPageSource=null;
 							String contentNowPageSource=driver.getPageSource();
@@ -433,6 +445,12 @@ public class QQmail_function extends Function{
 	//						ps.append("</Tln>"+"\n");
 							mobileElement.click();
 							Thread.sleep(5000);
+
+                            if(isElementExits("xpath", "//*[@class='android.widget.Button' and @text='继续访问']",driver)){
+                                driver.findElementByXPath("//*[@class='android.widget.Button' and @text='继续访问']").click();
+                                Thread.sleep(5000);
+                            }
+
 							String content="";
 							String contentLastPageSource=null;
 							String contentNowPageSource=driver.getPageSource();
@@ -564,6 +582,12 @@ public class QQmail_function extends Function{
 	//						ps.append("</Tln>"+"\n");
 							mobileElement.click();
 							Thread.sleep(5000);
+
+                            if(isElementExits("xpath", "//*[@class='android.widget.Button' and @text='继续访问']",driver)){
+                                driver.findElementByXPath("//*[@class='android.widget.Button' and @text='继续访问']").click();
+                                Thread.sleep(5000);
+                            }
+
 							String content="";
 							String contentLastPageSource=null;
 							String contentNowPageSource=driver.getPageSource();
@@ -697,6 +721,12 @@ public class QQmail_function extends Function{
 	//						ps.append("</Tln>"+"\n");
 							mobileElement.click();
 							Thread.sleep(5000);
+
+                            if(isElementExits("xpath", "//*[@class='android.widget.Button' and @text='继续访问']",driver)){
+                                driver.findElementByXPath("//*[@class='android.widget.Button' and @text='继续访问']").click();
+                                Thread.sleep(5000);
+                            }
+
 							String content="";
 							String contentLastPageSource=null;
 							String contentNowPageSource=driver.getPageSource();
@@ -832,6 +862,12 @@ public class QQmail_function extends Function{
 	//						ps.append("</Tln>"+"\n");
 							mobileElement.click();
 							Thread.sleep(5000);
+
+                            if(isElementExits("xpath", "//*[@class='android.widget.Button' and @text='继续访问']",driver)){
+                                driver.findElementByXPath("//*[@class='android.widget.Button' and @text='继续访问']").click();
+                                Thread.sleep(5000);
+                            }
+
 							String content="";
 							String contentLastPageSource=null;
 							String contentNowPageSource=driver.getPageSource();
@@ -964,6 +1000,12 @@ public class QQmail_function extends Function{
 	//						ps.append("</Tln>"+"\n");
 							mobileElement.click();
 							Thread.sleep(5000);
+
+                            if(isElementExits("xpath", "//*[@class='android.widget.Button' and @text='继续访问']",driver)){
+                                driver.findElementByXPath("//*[@class='android.widget.Button' and @text='继续访问']").click();
+                                Thread.sleep(5000);
+                            }
+
 							String content="";
 							String contentLastPageSource=null;
 							String contentNowPageSource=driver.getPageSource();
@@ -1100,6 +1142,12 @@ public class QQmail_function extends Function{
 	//						ps.append("</Tln>"+"\n");
 							mobileElement.click();
 							Thread.sleep(5000);
+
+                            if(isElementExits("xpath", "//*[@class='android.widget.Button' and @text='继续访问']",driver)){
+                                driver.findElementByXPath("//*[@class='android.widget.Button' and @text='继续访问']").click();
+                                Thread.sleep(5000);
+                            }
+
 							String content="";
 							String contentLastPageSource=null;
 							String contentNowPageSource=driver.getPageSource();
